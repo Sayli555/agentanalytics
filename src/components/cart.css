@@ -1,0 +1,100 @@
+.cart-product-img{
+    width:37%;
+    height: 250px;
+    padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.cart-products-main-div{
+    display: flex;
+    gap: 1%;
+}
+.cart-product-info{
+    width:63%;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 7%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.cart-product-info h2,h3 {
+    color: darkgreen;
+}
+
+.cart-product-info p{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+}
+
+.cart-plus-min button{
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.cart-plus-min span {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding-right: 10px;
+    padding-left:10px;
+}
+.remove-button{
+    font-size: 18px;
+    padding:10px 20px;
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    width: fit-content;
+    border: 1px solid brown;
+}
+
+.remove-button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.total-Qauntity-price-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+  @media screen and (max-width:780px){
+    .cart-product-img{
+        width: 92%;
+        padding: 3%;
+        margin: auto;
+        box-shadow: none;
+       
+    }
+    .cart-products-main-div{
+        flex-direction: column;
+        gap: 0;
+        width: 95%;
+        
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    }
+    .cart-product-info{
+        width: 99%;
+        margin: auto;
+        box-shadow: none;
+        display: flex;
+       
+       
+        gap: 0;
+    }
+    .cart-product-info h2,h3 {
+        padding: 0;
+        margin: 0;
+    }
+    .remove-button{
+        font-size: 15px;
+        padding: 5px 10px;
+        
+     
+        width:100%;
+        border: 1px solid brown;
+    }
+  }

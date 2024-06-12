@@ -1,0 +1,21 @@
+.home-div{
+    width:99%;
+    margin: auto;
+}
+Link{
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+  @media screen and (max-width:780px){
+    .home-banner{
+        width: 95%;
+        margin: auto;
+        height: 200px;
+    }
+  }
+
+  
