@@ -94,22 +94,6 @@ border: none;
     font-weight: bold;
     font-size: 20px;
 }
-/* .single-remove-button{
-    font-size: 15px;
-    padding: 7px 15px;
-    background-color: white;
-    color: brown;
-    font-size: 20px;
-    font-weight: bold;
-    border: 1px solid brown;
-    
-}
-
-.single-remove-button:hover{
-    background-color: brown;
-    color: white;
-} */
-
 .cartaddicon{
     font-size: 21px;
     padding-right: 10px;
@@ -119,7 +103,6 @@ border: none;
 
 .single-product-button{
     width: 100%;
-    /* border: 1px solid black; */
 }
 .single-remove-add-cart{
     font-size: 15px;

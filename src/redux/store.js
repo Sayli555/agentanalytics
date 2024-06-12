@@ -1,12 +1,10 @@
 import { legacy_createStore,combineReducers, compose, applyMiddleware } from "redux";
-import {accessoriesReducer} from "./accessories/accessoriesReducer";
 import {allReducer} from "./allProducts/allReducer";
 
 import thunk from "redux-thunk";;
 
 
 const rootRuducer=combineReducers({
-    accessoriesReducer,
     allReducer,
 })
 

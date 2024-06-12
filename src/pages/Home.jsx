@@ -1,6 +1,4 @@
 import React from 'react';
-import TextTypewriter from '../components/TextTypewriter';
-import { Tostify } from '../components/Tostify';
 import "./home.css"
 import AllProduct from './products/AllProduct';
 

@@ -1,27 +1,17 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
-  const dispatch = useDispatch();
 
   const location = useLocation();
   const [active, setActive] = useState("/");
-
-
 
   useEffect(() => {
     setActive(location.pathname);
   }, [location]);
 
-
-
-  // ****************************login part***********************************************************
-
-
-  // *******************************************************responsive part************************************
-
+ 
   const [isMobile, setIsMobile] = useState(false);
 
   return (
@@ -36,9 +26,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-other-product">
-          <div className="navbar-products">
-            
-          </div>
+          <div className="navbar-products"></div>
         </div>
       </div>
 
@@ -50,11 +38,7 @@ const Navbar = () => {
             HOME
           </Link>
         </h3>
-        <ul className={"nav-links"}>
-          <Link to="/accessories" className="home">
-            <li>ACCESSORIES</li>
-          </Link>
-        </ul>
+
 
         <button className="mobile-menu-icons">
           {isMobile ? (
