@@ -26,7 +26,6 @@ dispatch(allProductFetchRequest());
 axios.get("https://eshopren.onrender.com/all",params)
 .then((r)=>
 
-// console.log("r",r)
 dispatch(allProductFetchSuccess(r.data))
 )
 .catch((e)=>dispatch(allProductFetchFailure(e.data)))

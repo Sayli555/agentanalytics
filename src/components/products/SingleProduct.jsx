@@ -36,11 +36,9 @@ const SingleProduct = () => {
 
           <div className="single-plus-min">
             <button onClick={() => quantityadding(-1)} className="cartaddicon">
-              {/* <AiOutlineMinus className='cartaddicon'/> */}-
             </button>
             <span>{quantity}</span>
             <button onClick={() => quantityadding(1)} className="cartaddicon">
-              {/* <AiOutlinePlus className='cartaddicon' /> */}+
             </button>
           </div>
           <div className="single-product-button"></div>

@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import Products from '../../components/products/Products';
 import TextTypewriter from '../../components/TextTypewriter';
 import { allDataGet } from '../../redux/allProducts/action';
-import "./mens.css";
+import "./allpr.css";
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -13,12 +13,8 @@ const AllProduct = () => {
     const dispatch=useDispatch();
 
     useEffect(()=>{
-
-       // if(mens.length!==0 && (!brand || !sortUrl)){
             dispatch(allDataGet())
-     //   }
     },[])
-    // console.log(mens)
 
   return (
     <>
